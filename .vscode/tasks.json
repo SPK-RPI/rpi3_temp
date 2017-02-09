@@ -3,18 +3,9 @@
     // for the documentation about the tasks.json format
     "version": "0.1.0",
     "command": "g++",
-    "args": [
-    "-g","temp.cpp"
-    ],
-    //"taskSelector": "-g",
-    "showOutput": "showOutput",
-    "tasks": [
-        {
-            "taskName": "build",
-            // Show the output window only if unrecognized errors occur.
-            "showOutput": "showOutput",
-            // Use the standard MS compiler pattern to detect errors, warnings and infos
-            "problemMatcher": "$msCompile"
-        }
-    ]
+    "isShellCommand": true,
+    "args": ["-g", "temp.cpp"],
+    "showOutput": "true",
+    "isWatching": true,
+   // "problemMatcher": "$tsc-watch"
 }

@@ -6,6 +6,6 @@
     "isShellCommand": true,
     "args": ["-g", "temp.cpp"],
     "showOutput": "true",
-    "isWatching": true,
+    "isWatching": true
    // "problemMatcher": "$tsc-watch"
 }

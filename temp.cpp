@@ -15,6 +15,7 @@ int main(){
             cout <<FGRN("CPU===>> ")<<b<<" C'"<<endl;
       }
       else if (b>=31&&b<=49){
+            
             cout <<FYEL("CPU===>> ")<<b<<" C'"<<endl;
                         
       }

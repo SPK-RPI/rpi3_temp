@@ -23,6 +23,6 @@ int main(){
             cout <<FRED("CPU===>> ")<<b<<" C'"<<endl;
       }
 
-cin.get ();
+//cin.get ();
 return 0 ;
 }
